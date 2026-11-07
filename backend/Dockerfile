@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 COPY . .
-RUN ./node_modules/.bin/prisma generate
+RUN DATABASE_URL="postgresql://x:x@localhost:5432/x" ./node_modules/.bin/prisma generate
 RUN npm run build
 
 FROM node:22-alpine
