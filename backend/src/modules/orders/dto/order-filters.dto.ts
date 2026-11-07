@@ -4,7 +4,7 @@ import {
   OrderSource,
   OrderStatus,
   PaymentStatus,
-} from '../../../../generated/prisma/client';
+} from '@prisma/client';
 import { PaginationDto } from '../../../common/dto/pagination.dto';
 
 export class OrderFiltersDto extends PaginationDto {

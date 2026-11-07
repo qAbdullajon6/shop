@@ -9,7 +9,7 @@ import {
   Prisma,
   PurchaseStatus,
   StockTransactionType,
-} from '../../../generated/prisma/client';
+} from '@prisma/client';
 import { PrismaService } from '../../common/prisma/prisma.service';
 import { CreatePurchaseDto } from './dto/create-purchase.dto';
 import { CreateStockTransactionDto } from './dto/create-stock-transaction.dto';

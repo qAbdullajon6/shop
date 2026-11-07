@@ -1,6 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Expose, Transform, Type } from 'class-transformer';
-import { StockTransactionType } from '../../../../generated/prisma/client';
+import { StockTransactionType } from '@prisma/client';
 
 function decimalToString({ value }: { value: { toString(): string } | null | undefined }): string | null {
   if (value === null || value === undefined) return null;

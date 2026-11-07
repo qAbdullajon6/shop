@@ -6,7 +6,7 @@ import {
   type Coupon,
   type DeliveryOption,
   type ProductVariant,
-} from '../../../generated/prisma/client';
+} from '@prisma/client';
 import { PrismaService } from '../../common/prisma/prisma.service';
 import { add, gte, min, money, multiply, round, subtract, ZERO } from '../../common/utils/money.util';
 

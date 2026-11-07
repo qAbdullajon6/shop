@@ -11,7 +11,7 @@ import {
   Prisma,
   ReviewStatus,
   Role,
-} from '../../../generated/prisma/client';
+} from '@prisma/client';
 import { PrismaService } from '../../common/prisma/prisma.service';
 import { AdminReviewQueryDto } from './dto/admin-review-query.dto';
 import { CreateReviewDto } from './dto/create-review.dto';

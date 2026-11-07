@@ -1,6 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { IsEnum, IsOptional, IsString, MaxLength } from 'class-validator';
-import { ReviewStatus } from '../../../../generated/prisma/client';
+import { ReviewStatus } from '@prisma/client';
 
 export class ModerateReviewDto {
   @ApiProperty({ enum: ReviewStatus, example: ReviewStatus.APPROVED })

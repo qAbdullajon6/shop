@@ -18,7 +18,7 @@ import {
   ApiUnauthorizedResponse,
 } from '@nestjs/swagger';
 import { SkipThrottle } from '@nestjs/throttler';
-import type { User } from '../../../generated/prisma/client';
+import type { User } from '@prisma/client';
 
 import { CurrentUser } from '../../common/decorators';
 import { ProductIdParamDto } from '../../common/dto/product-id-param.dto';

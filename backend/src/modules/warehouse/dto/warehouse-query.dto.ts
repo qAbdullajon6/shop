@@ -4,7 +4,7 @@ import { IsBoolean, IsEnum, IsOptional, IsString } from 'class-validator';
 import {
   PurchaseStatus,
   StockTransactionType,
-} from '../../../../generated/prisma/client';
+} from '@prisma/client';
 import { PaginationDto } from '../../../common/dto/pagination.dto';
 
 export class WarehouseQueryDto extends PaginationDto {

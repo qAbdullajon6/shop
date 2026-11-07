@@ -26,7 +26,7 @@ import { ClientIp, CurrentRefreshUser, CurrentUser, Public } from '../../common/
 import { JwtRefreshGuard } from '../../common/guards';
 import { REFRESH_TOKEN_COOKIE } from '../../common/strategies/jwt-refresh.strategy';
 import { ENV_CONFIG, EnvConfig } from '../../common/config/env.config';
-import type { User } from '../../../generated/prisma/client';
+import type { User } from '@prisma/client';
 import type { RefreshTokenUser } from '../../common/types';
 import { UserResponseDto } from '../users/dto/user-response.dto';
 import { AuthService } from './auth.service';

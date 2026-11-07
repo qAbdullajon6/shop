@@ -22,8 +22,8 @@ import {
   ApiTags,
   ApiUnauthorizedResponse,
 } from '@nestjs/swagger';
-import { Role } from '../../../generated/prisma/client';
-import type { User } from '../../../generated/prisma/client';
+import { Role } from '@prisma/client';
+import type { User } from '@prisma/client';
 
 import { CurrentUser, Roles } from '../../common/decorators';
 import { IdParamDto } from '../../common/dto/id-param.dto';

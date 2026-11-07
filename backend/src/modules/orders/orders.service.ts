@@ -15,7 +15,7 @@ import {
   PaymentStatus,
   Prisma,
   StockTransactionType,
-} from '../../../generated/prisma/client';
+} from '@prisma/client';
 import { PrismaService } from '../../common/prisma/prisma.service';
 import { CreateOrderDto, PreviewOrderDto } from './dto/create-order.dto';
 import { OrderFiltersDto, UserOrderFiltersDto } from './dto/order-filters.dto';

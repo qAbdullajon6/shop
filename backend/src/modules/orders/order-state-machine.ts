@@ -1,5 +1,5 @@
 import { BadRequestException } from '@nestjs/common';
-import { OrderStatus } from '../../../generated/prisma/client';
+import { OrderStatus } from '@prisma/client';
 
 /**
  * Buyurtma holatlari o'tish jadvali.

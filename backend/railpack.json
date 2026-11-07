@@ -1,6 +1,6 @@
 {
   "build": {
-    "cmd": "npm install --ignore-scripts && ./node_modules/.bin/prisma generate && npm run build"
+    "cmd": "npm install && ./node_modules/.bin/prisma generate && npm run build"
   },
   "deploy": {
     "cmd": "./node_modules/.bin/prisma migrate deploy && node dist/src/main"

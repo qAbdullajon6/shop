@@ -1,6 +1,6 @@
 import { ApiPropertyOptional } from '@nestjs/swagger';
 import { IsBoolean, IsEmail, IsEnum, IsOptional, IsString, MaxLength } from 'class-validator';
-import { Role } from '../../../../generated/prisma/client';
+import { Role } from '@prisma/client';
 
 export class AdminUpdateUserDto {
   @ApiPropertyOptional({ example: 'Ali' })

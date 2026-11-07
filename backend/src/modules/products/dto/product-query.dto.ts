@@ -16,7 +16,7 @@ import {
 import {
   FragranceConcentration,
   FragranceGender,
-} from '../../../../generated/prisma/client';
+} from '@prisma/client';
 import { PaginationDto } from '../../../common/dto/pagination.dto';
 
 export enum ProductSortBy {

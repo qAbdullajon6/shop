@@ -43,7 +43,7 @@ import {
   Prisma,
   PrismaClient,
   ReviewStatus,
-} from '../generated/prisma/client';
+} from '@prisma/client';
 import { PrismaPg } from '@prisma/adapter-pg';
 import { Pool } from 'pg';
 

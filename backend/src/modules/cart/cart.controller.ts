@@ -20,7 +20,7 @@ import {
   ApiTags,
 } from '@nestjs/swagger';
 import { SkipThrottle } from '@nestjs/throttler';
-import type { User } from '../../../generated/prisma/client';
+import type { User } from '@prisma/client';
 
 import { CurrentUser, CurrentUserOptional, OptionalAuth } from '../../common/decorators';
 import { VariantIdParamDto } from '../../common/dto/variant-id-param.dto';

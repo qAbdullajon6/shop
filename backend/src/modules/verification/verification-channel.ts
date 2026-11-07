@@ -1,4 +1,4 @@
-import { VerificationChannel } from '../../../generated/prisma/client';
+import { VerificationChannel } from '@prisma/client';
 
 export interface DeliveryTarget {
   phone_number: string;

@@ -30,7 +30,7 @@ import {
   ApiUnprocessableEntityResponse,
 } from '@nestjs/swagger';
 import { SkipThrottle } from '@nestjs/throttler';
-import { Role } from '../../../generated/prisma/client';
+import { Role } from '@prisma/client';
 
 import { Public, Roles } from '../../common/decorators';
 import { IdParamDto } from '../../common/dto/id-param.dto';

@@ -16,8 +16,8 @@ import { plainToInstance } from 'class-transformer';
 import {
   Role,
   VerificationPurpose,
-} from '../../../generated/prisma/client';
-import type { User } from '../../../generated/prisma/client';
+} from '@prisma/client';
+import type { User } from '@prisma/client';
 import { ENV_CONFIG, EnvConfig } from '../../common/config/env.config';
 import { PrismaService } from '../../common/prisma/prisma.service';
 import { compareValue, hashValue } from '../../common/utils/bcrypt.util';

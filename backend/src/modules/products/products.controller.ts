@@ -33,8 +33,8 @@ import { SkipThrottle, Throttle } from '@nestjs/throttler';
 // Ommaviy katalog endpointlari uchun saxiy, ammo mavjud tezlik cheklovi —
 // oddiy mijozga xalaqit bermaydi, lekin scraping/DoS ni jilovlaydi.
 const CATALOG_THROTTLE = { default: { limit: 240, ttl: 60_000 } };
-import { Role } from '../../../generated/prisma/client';
-import type { User } from '../../../generated/prisma/client';
+import { Role } from '@prisma/client';
+import type { User } from '@prisma/client';
 
 import { CurrentUserOptional, OptionalAuth, Public, Roles } from '../../common/decorators';
 import { IdParamDto } from '../../common/dto/id-param.dto';

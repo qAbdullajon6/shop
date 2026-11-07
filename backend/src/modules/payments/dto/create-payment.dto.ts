@@ -9,7 +9,7 @@ import {
   IsString,
   Min,
 } from 'class-validator';
-import { PaymentMethod } from '../../../../generated/prisma/client';
+import { PaymentMethod } from '@prisma/client';
 
 export class CreatePaymentDto {
   @ApiProperty({ example: 'clx0987xyz', description: "Buyurtma ID" })

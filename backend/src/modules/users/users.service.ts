@@ -5,7 +5,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { plainToInstance } from 'class-transformer';
-import { User } from '../../../generated/prisma/client';
+import { User } from '@prisma/client';
 
 import { PrismaService } from '../../common/prisma/prisma.service';
 import { AdminUpdateUserDto } from './dto/admin-update-user.dto';

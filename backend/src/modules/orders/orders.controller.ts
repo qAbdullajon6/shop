@@ -21,8 +21,8 @@ import {
   ApiTags,
 } from '@nestjs/swagger';
 import { SkipThrottle, Throttle } from '@nestjs/throttler';
-import { OrderSource, Role } from '../../../generated/prisma/client';
-import type { User } from '../../../generated/prisma/client';
+import { OrderSource, Role } from '@prisma/client';
+import type { User } from '@prisma/client';
 
 import { ClientIp, CurrentUser, Roles } from '../../common/decorators';
 import { IdParamDto } from '../../common/dto/id-param.dto';

@@ -1,5 +1,5 @@
 import { Inject, Injectable } from '@nestjs/common';
-import { VerificationChannel } from '../../../../generated/prisma/client';
+import { VerificationChannel } from '@prisma/client';
 
 import { ENV_CONFIG, EnvConfig } from '../../../common/config/env.config';
 import { TelegramApiService } from '../../telegram/telegram-api.service';

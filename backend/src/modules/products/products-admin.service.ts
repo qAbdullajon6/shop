@@ -5,7 +5,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 
-import { AttributeType, Prisma } from '../../../generated/prisma/client';
+import { AttributeType, Prisma } from '@prisma/client';
 import { PrismaService } from '../../common/prisma/prisma.service';
 import { slugify } from '../../common/utils/slug.util';
 import { ProductMediaService } from './product-media.service';

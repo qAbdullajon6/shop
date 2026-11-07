@@ -1,6 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Expose, Type } from 'class-transformer';
-import { VerificationChannel } from '../../../../generated/prisma/client';
+import { VerificationChannel } from '@prisma/client';
 import { UserResponseDto } from '../../users/dto/user-response.dto';
 
 export class TokensDto {

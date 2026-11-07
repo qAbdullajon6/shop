@@ -1,5 +1,5 @@
 import { createParamDecorator, ExecutionContext } from '@nestjs/common';
-import { User } from '../../../generated/prisma/client';
+import { User } from '@prisma/client';
 import { RefreshTokenUser } from '../types';
 
 export const CurrentUserOptional = createParamDecorator(

@@ -3,7 +3,7 @@ import { Expose, Type } from 'class-transformer';
 import {
   FragranceConcentration,
   FragranceGender,
-} from '../../../../generated/prisma/client';
+} from '@prisma/client';
 
 export class ProductImageResponseDto {
   @ApiProperty() @Expose() id!: string;

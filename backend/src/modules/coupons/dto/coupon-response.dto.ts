@@ -1,6 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Expose, Transform, Type } from 'class-transformer';
-import { DiscountType } from '../../../../generated/prisma/client';
+import { DiscountType } from '@prisma/client';
 
 function decimalToString({
   value,

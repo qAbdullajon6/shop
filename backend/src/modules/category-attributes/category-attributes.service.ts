@@ -4,7 +4,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { plainToInstance } from 'class-transformer';
-import { AttributeType } from '../../../generated/prisma/client';
+import { AttributeType } from '@prisma/client';
 
 import { PrismaService } from '../../common/prisma/prisma.service';
 import { CreateCategoryAttributeDto } from './dto/create-category-attribute.dto';

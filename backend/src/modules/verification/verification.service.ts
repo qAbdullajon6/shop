@@ -10,7 +10,7 @@ import * as crypto from 'crypto';
 import {
   VerificationChannel,
   VerificationPurpose,
-} from '../../../generated/prisma/client';
+} from '@prisma/client';
 import { ENV_CONFIG, EnvConfig } from '../../common/config/env.config';
 import { PrismaService } from '../../common/prisma/prisma.service';
 import { compareValue, hashValue } from '../../common/utils/bcrypt.util';

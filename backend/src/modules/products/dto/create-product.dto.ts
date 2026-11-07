@@ -21,7 +21,7 @@ import {
 import {
   FragranceConcentration,
   FragranceGender,
-} from '../../../../generated/prisma/client';
+} from '@prisma/client';
 
 /** multipart/form-data da murakkab maydonlar JSON satri sifatida keladi. */
 const parseJson = ({ value }: { value: unknown }): unknown => {

@@ -23,8 +23,8 @@ import {
   ApiTags,
 } from '@nestjs/swagger';
 import { SkipThrottle, Throttle } from '@nestjs/throttler';
-import { Role } from '../../../generated/prisma/client';
-import type { User } from '../../../generated/prisma/client';
+import { Role } from '@prisma/client';
+import type { User } from '@prisma/client';
 
 import { CurrentUser, Public, Roles } from '../../common/decorators';
 import { RolesGuard } from '../../common/guards';

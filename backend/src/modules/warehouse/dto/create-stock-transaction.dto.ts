@@ -10,7 +10,7 @@ import {
   IsString,
   Min,
 } from 'class-validator';
-import { StockTransactionType } from '../../../../generated/prisma/client';
+import { StockTransactionType } from '@prisma/client';
 
 export class CreateStockTransactionDto {
   @ApiProperty({ example: 'clvariant000001' })

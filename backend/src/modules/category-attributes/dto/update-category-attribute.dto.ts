@@ -10,7 +10,7 @@ import {
   MaxLength,
   Min,
 } from 'class-validator';
-import { AttributeType } from '../../../../generated/prisma/client';
+import { AttributeType } from '@prisma/client';
 
 export class UpdateCategoryAttributeDto {
   @ApiPropertyOptional({ example: 'Operativ xotira' })

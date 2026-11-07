@@ -1,4 +1,4 @@
-import { Prisma } from '../../../generated/prisma/client';
+import { Prisma } from '@prisma/client';
 
 /**
  * Decimal qabul qiladigan qiymat turlari. Prisma 7 da `Prisma.Decimal.Value`

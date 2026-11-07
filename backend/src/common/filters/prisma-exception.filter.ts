@@ -10,7 +10,7 @@ import {
 } from '@nestjs/common';
 import * as crypto from 'crypto';
 import { Request, Response } from 'express';
-import { Prisma } from '../../../generated/prisma/client';
+import { Prisma } from '@prisma/client';
 
 @Catch(Prisma.PrismaClientKnownRequestError)
 export class PrismaExceptionFilter implements ExceptionFilter {

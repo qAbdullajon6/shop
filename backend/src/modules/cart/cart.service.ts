@@ -6,7 +6,7 @@ import {
 import * as crypto from 'crypto';
 import { plainToInstance } from 'class-transformer';
 
-import { Prisma } from '../../../generated/prisma/client';
+import { Prisma } from '@prisma/client';
 import { PrismaService } from '../../common/prisma/prisma.service';
 import { add, discountPercent, multiply, round, subtract, ZERO } from '../../common/utils/money.util';
 import { AddCartItemDto } from './dto/add-cart-item.dto';

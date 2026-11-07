@@ -16,7 +16,7 @@ import {
   ValidateNested,
 } from 'class-validator';
 
-import { PaymentMethod } from '../../../../generated/prisma/client';
+import { PaymentMethod } from '@prisma/client';
 
 /** Bitta qatorda ruxsat etilgan maksimal miqdor — chakana savdo uchun aqlli chegara. */
 const MAX_QUANTITY_PER_ITEM = 20;

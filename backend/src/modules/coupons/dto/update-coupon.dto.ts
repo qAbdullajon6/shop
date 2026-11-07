@@ -11,7 +11,7 @@ import {
   Matches,
   Min,
 } from 'class-validator';
-import { DiscountType } from '../../../../generated/prisma/client';
+import { DiscountType } from '@prisma/client';
 
 export class UpdateCouponDto {
   @ApiPropertyOptional({ example: 'WINTER30', description: "Kupon kodi — katta harf, raqam, _ yoki - (3–30 belgi)" })

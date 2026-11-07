@@ -1,6 +1,6 @@
 import { ApiProperty, ApiPropertyOptional } from '@nestjs/swagger';
 import { Expose, Type } from 'class-transformer';
-import { ReviewStatus } from '../../../../generated/prisma/client';
+import { ReviewStatus } from '@prisma/client';
 
 export class ReviewUserDto {
   @ApiProperty() @Expose() id!: string;
