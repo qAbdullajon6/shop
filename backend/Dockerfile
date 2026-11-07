@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package*.json ./
 RUN npm ci
 COPY . .
-RUN npx prisma generate
+RUN ./node_modules/.bin/prisma generate
 RUN npm run build
 
 FROM node:22-alpine
@@ -16,4 +16,4 @@ COPY --from=builder /app/prisma ./prisma
 RUN mkdir -p uploads/products uploads/categories uploads/banners uploads/brands
 
 EXPOSE 8000
-CMD ["sh", "-c", "npx prisma migrate deploy && node dist/src/main"]
+CMD ["sh", "-c", "./node_modules/.bin/prisma migrate deploy && node dist/src/main"]
