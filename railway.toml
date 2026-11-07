@@ -1,10 +1,8 @@
 [build]
-builder = "DOCKERFILE"
-dockerfilePath = "backend/Dockerfile"
-
+buildCommand = "cd backend && npm install && npm run build"
 
 [deploy]
-startCommand = "node dist/src/main"
+startCommand = "cd backend && ./node_modules/.bin/prisma migrate deploy && node dist/src/main"
 healthcheckPath = "/api/health"
 healthcheckTimeout = 60
 restartPolicyType = "ON_FAILURE"
