@@ -1,0 +1,12 @@
+node_modules
+dist
+.env
+.env.local
+.env.*.local
+uploads/products
+uploads/categories
+uploads/banners
+uploads/brands
+*.log
+.DS_Store
+generated
