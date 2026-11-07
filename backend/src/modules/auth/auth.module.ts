@@ -1,0 +1,25 @@
+import { Module } from '@nestjs/common';
+import { JwtModule } from '@nestjs/jwt';
+import { PassportModule } from '@nestjs/passport';
+
+import { JwtRefreshStrategy } from '../../common/strategies/jwt-refresh.strategy';
+import { JwtStrategy } from '../../common/strategies/jwt.strategy';
+import { TelegramModule } from '../telegram/telegram.module';
+import { UsersModule } from '../users/users.module';
+import { VerificationModule } from '../verification/verification.module';
+import { AuthController } from './auth.controller';
+import { AuthService } from './auth.service';
+
+@Module({
+  imports: [
+    PassportModule,
+    JwtModule.register({}),
+    UsersModule,
+    VerificationModule,
+    TelegramModule,
+  ],
+  controllers: [AuthController],
+  providers: [AuthService, JwtStrategy, JwtRefreshStrategy],
+  exports: [AuthService],
+})
+export class AuthModule {}

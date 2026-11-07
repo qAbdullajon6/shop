@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="mfk MFK Baccarat Rouge 540">
+  <defs>
+    <linearGradient id="gmruld8" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8A9B8"/>
+      <stop offset="52%" stop-color="#C4647A"/>
+      <stop offset="100%" stop-color="#8A3F52"/>
+    </linearGradient>
+    <linearGradient id="emruld8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8A9B8"/>
+      <stop offset="100%" stop-color="#C4647A"/>
+    </linearGradient>
+    <linearGradient id="cmruld8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#3A1E26"/>
+    </linearGradient>
+    <radialGradient id="bgmruld8" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#C4647A" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8A3F52"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="620" fill="url(#bgmruld8)"/>
+
+  <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
+
+  <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
+    
+        <rect x="150" y="230" width="200" height="240" rx="16" fill="url(#gmruld8)" stroke="url(#emruld8)" stroke-width="2"/>
+        <rect x="215" y="196" width="70" height="40" fill="url(#emruld8)" opacity="0.85"/>
+        <rect x="205" y="150" width="90" height="52" rx="6" fill="url(#cmruld8)"/>
+        <rect x="176" y="300" width="148" height="112" rx="6" fill="#FFFFFF" opacity="0.14"/>
+  </g>
+
+  <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        letter-spacing="4" fill="#E8A9B8">MFK</text>
+  <text x="250" y="574" text-anchor="middle" font-family="Georgia, serif" font-size="21"
+        fill="#F5EFE3">MFK Baccarat Rouge 540</text>
+  <text x="250" y="598" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12"
+        letter-spacing="2" fill="#E8A9B8">35ml</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="rituals Rituals Sakura Bar Soap">
+  <defs>
+    <linearGradient id="gk0tznq" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8A9B8"/>
+      <stop offset="52%" stop-color="#C4647A"/>
+      <stop offset="100%" stop-color="#8A3F52"/>
+    </linearGradient>
+    <linearGradient id="ek0tznq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8A9B8"/>
+      <stop offset="100%" stop-color="#C4647A"/>
+    </linearGradient>
+    <linearGradient id="ck0tznq" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#3A1E26"/>
+    </linearGradient>
+    <radialGradient id="bgk0tznq" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#C4647A" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8A3F52"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="620" fill="url(#bgk0tznq)"/>
+
+  <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
+
+  <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
+    
+        <rect x="140" y="250" width="220" height="150" rx="34" fill="url(#gk0tznq)" stroke="url(#ek0tznq)" stroke-width="2"/>
+        <rect x="140" y="250" width="220" height="46" rx="24" fill="#FFFFFF" opacity="0.16"/>
+        <circle cx="250" cy="326" r="42" fill="none" stroke="url(#ck0tznq)" stroke-width="3" opacity="0.7"/>
+  </g>
+
+  <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        letter-spacing="4" fill="#E8A9B8">RITUALS</text>
+  <text x="250" y="574" text-anchor="middle" font-family="Georgia, serif" font-size="21"
+        fill="#F5EFE3">Rituals Sakura Bar Soap</text>
+  <text x="250" y="598" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12"
+        letter-spacing="2" fill="#E8A9B8">100g</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="dior Dior Sauvage Parfyumeriya Seti">
+  <defs>
+    <linearGradient id="g6plxzr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9BC4DE"/>
+      <stop offset="52%" stop-color="#4A7FA5"/>
+      <stop offset="100%" stop-color="#2C5170"/>
+    </linearGradient>
+    <linearGradient id="e6plxzr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BC4DE"/>
+      <stop offset="100%" stop-color="#4A7FA5"/>
+    </linearGradient>
+    <linearGradient id="c6plxzr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#16262F"/>
+    </linearGradient>
+    <radialGradient id="bg6plxzr" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#4A7FA5" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#2C5170"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="620" fill="url(#bg6plxzr)"/>
+
+  <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
+
+  <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
+    
+        <rect x="132" y="252" width="236" height="196" rx="10" fill="url(#g6plxzr)" stroke="url(#e6plxzr)" stroke-width="2"/>
+        <rect x="132" y="252" width="236" height="44" rx="8" fill="url(#e6plxzr)" opacity="0.75"/>
+        <rect x="236" y="252" width="28" height="196" fill="url(#c6plxzr)" opacity="0.55"/>
+        <path d="M250 252c-26-34-58-40-70-24-10 14 6 24 70 24zm0 0c26-34 58-40 70-24 10 14-6 24-70 24z" fill="url(#c6plxzr)" opacity="0.8"/>
+  </g>
+
+  <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        letter-spacing="4" fill="#9BC4DE">DIOR</text>
+  <text x="250" y="574" text-anchor="middle" font-family="Georgia, serif" font-size="21"
+        fill="#F5EFE3">Dior Sauvage Parfyumeriya Seti</text>
+  <text x="250" y="598" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12"
+        letter-spacing="2" fill="#9BC4DE">To&apos;plam</text>
+</svg>

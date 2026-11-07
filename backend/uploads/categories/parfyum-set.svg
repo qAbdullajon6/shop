@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Parfyumeriya setlari">
+  <defs>
+    <linearGradient id="gjqn57n" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B98CAC"/>
+      <stop offset="52%" stop-color="#7A4A6B"/>
+      <stop offset="100%" stop-color="#4E2C44"/>
+    </linearGradient>
+    <linearGradient id="ejqn57n" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B98CAC"/>
+      <stop offset="100%" stop-color="#7A4A6B"/>
+    </linearGradient>
+    <linearGradient id="cjqn57n" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#2A1826"/>
+    </linearGradient>
+    <linearGradient id="bgjqn57n" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#B98CAC" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgjqn57n)"/>
+  <ellipse cx="400" cy="760" rx="180" ry="24" fill="#000000" opacity="0.1"/>
+  <g transform="translate(400 520) scale(1.5) translate(-250 -330)">
+    
+        <rect x="132" y="252" width="236" height="196" rx="10" fill="url(#gjqn57n)" stroke="url(#ejqn57n)" stroke-width="2"/>
+        <rect x="132" y="252" width="236" height="44" rx="8" fill="url(#ejqn57n)" opacity="0.75"/>
+        <rect x="236" y="252" width="28" height="196" fill="url(#cjqn57n)" opacity="0.55"/>
+        <path d="M250 252c-26-34-58-40-70-24-10 14 6 24 70 24zm0 0c26-34 58-40 70-24 10 14-6 24-70 24z" fill="url(#cjqn57n)" opacity="0.8"/>
+  </g>
+  <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-size="42"
+        fill="#2A2620">Parfyumeriya setlari</text>
+</svg>

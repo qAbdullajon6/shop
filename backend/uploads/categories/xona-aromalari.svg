@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Xona aromalari">
+  <defs>
+    <linearGradient id="g0hkwd2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3B778"/>
+      <stop offset="52%" stop-color="#B87333"/>
+      <stop offset="100%" stop-color="#7A4A1E"/>
+    </linearGradient>
+    <linearGradient id="e0hkwd2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3B778"/>
+      <stop offset="100%" stop-color="#B87333"/>
+    </linearGradient>
+    <linearGradient id="c0hkwd2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#3A2A18"/>
+    </linearGradient>
+    <linearGradient id="bg0hkwd2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#E3B778" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg0hkwd2)"/>
+  <ellipse cx="400" cy="760" rx="180" ry="24" fill="#000000" opacity="0.1"/>
+  <g transform="translate(400 520) scale(1.5) translate(-250 -330)">
+    
+        <path d="M186 300h128l14 150a16 16 0 0 1-16 18H188a16 16 0 0 1-16-18z" fill="url(#g0hkwd2)" stroke="url(#e0hkwd2)" stroke-width="2"/>
+        <rect x="222" y="262" width="56" height="42" fill="url(#e0hkwd2)" opacity="0.8"/>
+        <g stroke="url(#c0hkwd2)" stroke-width="7" stroke-linecap="round" opacity="0.9">
+          <line x1="236" y1="268" x2="200" y2="120"/>
+          <line x1="250" y1="266" x2="252" y2="104"/>
+          <line x1="264" y1="268" x2="300" y2="126"/>
+        </g>
+  </g>
+  <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-size="42"
+        fill="#2A2620">Xona aromalari</text>
+</svg>

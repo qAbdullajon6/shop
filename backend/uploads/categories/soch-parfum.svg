@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Soch parfumi">
+  <defs>
+    <linearGradient id="gn22zs8" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0D278"/>
+      <stop offset="52%" stop-color="#D4A017"/>
+      <stop offset="100%" stop-color="#8F6B0F"/>
+    </linearGradient>
+    <linearGradient id="en22zs8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D278"/>
+      <stop offset="100%" stop-color="#D4A017"/>
+    </linearGradient>
+    <linearGradient id="cn22zs8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#3A2E10"/>
+    </linearGradient>
+    <linearGradient id="bgn22zs8" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#F0D278" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgn22zs8)"/>
+  <ellipse cx="400" cy="760" rx="180" ry="24" fill="#000000" opacity="0.1"/>
+  <g transform="translate(400 520) scale(1.5) translate(-250 -330)">
+    
+        <rect x="182" y="180" width="136" height="300" rx="14" fill="url(#gn22zs8)" stroke="url(#en22zs8)" stroke-width="2"/>
+        <rect x="228" y="146" width="44" height="38" fill="url(#en22zs8)" opacity="0.85"/>
+        <rect x="216" y="104" width="68" height="46" rx="8" fill="url(#cn22zs8)"/>
+        <rect x="202" y="250" width="96" height="150" rx="6" fill="#FFFFFF" opacity="0.14"/>
+  </g>
+  <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-size="42"
+        fill="#2A2620">Soch parfumi</text>
+</svg>

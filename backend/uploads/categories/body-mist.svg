@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Body Mist">
+  <defs>
+    <linearGradient id="g91sss0" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#9BC4DE"/>
+      <stop offset="52%" stop-color="#4A7FA5"/>
+      <stop offset="100%" stop-color="#2C5170"/>
+    </linearGradient>
+    <linearGradient id="e91sss0" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9BC4DE"/>
+      <stop offset="100%" stop-color="#4A7FA5"/>
+    </linearGradient>
+    <linearGradient id="c91sss0" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#16262F"/>
+    </linearGradient>
+    <linearGradient id="bg91sss0" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#9BC4DE" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bg91sss0)"/>
+  <ellipse cx="400" cy="760" rx="180" ry="24" fill="#000000" opacity="0.1"/>
+  <g transform="translate(400 520) scale(1.5) translate(-250 -330)">
+    
+        <rect x="182" y="180" width="136" height="300" rx="14" fill="url(#g91sss0)" stroke="url(#e91sss0)" stroke-width="2"/>
+        <rect x="228" y="146" width="44" height="38" fill="url(#e91sss0)" opacity="0.85"/>
+        <rect x="216" y="104" width="68" height="46" rx="8" fill="url(#c91sss0)"/>
+        <rect x="202" y="250" width="96" height="150" rx="6" fill="#FFFFFF" opacity="0.14"/>
+  </g>
+  <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-size="42"
+        fill="#2A2620">Body Mist</text>
+</svg>

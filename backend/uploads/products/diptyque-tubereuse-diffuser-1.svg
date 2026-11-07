@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="diptyque Diptyque Tubéreuse Reed Diffuser">
+  <defs>
+    <linearGradient id="g8x32l7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2EADB"/>
+      <stop offset="52%" stop-color="#D9CDB8"/>
+      <stop offset="100%" stop-color="#A8967A"/>
+    </linearGradient>
+    <linearGradient id="e8x32l7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2EADB"/>
+      <stop offset="100%" stop-color="#D9CDB8"/>
+    </linearGradient>
+    <linearGradient id="c8x32l7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#4A4034"/>
+    </linearGradient>
+    <radialGradient id="bg8x32l7" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFDF9"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="620" fill="url(#bg8x32l7)"/>
+
+  <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.1"/>
+
+  <g transform="translate(250 330) rotate(0) scale(1) translate(-250 -330)">
+    
+        <path d="M186 300h128l14 150a16 16 0 0 1-16 18H188a16 16 0 0 1-16-18z" fill="url(#g8x32l7)" stroke="url(#e8x32l7)" stroke-width="2"/>
+        <rect x="222" y="262" width="56" height="42" fill="url(#e8x32l7)" opacity="0.8"/>
+        <g stroke="url(#c8x32l7)" stroke-width="7" stroke-linecap="round" opacity="0.9">
+          <line x1="236" y1="268" x2="200" y2="120"/>
+          <line x1="250" y1="266" x2="252" y2="104"/>
+          <line x1="264" y1="268" x2="300" y2="126"/>
+        </g>
+  </g>
+
+  <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        letter-spacing="4" fill="#8A837A">DIPTYQUE</text>
+  <text x="250" y="574" text-anchor="middle" font-family="Georgia, serif" font-size="21"
+        fill="#2A2620">Diptyque Tubéreuse Reed Diffuser</text>
+  <text x="250" y="598" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12"
+        letter-spacing="2" fill="#8A837A">200ml</text>
+</svg>

@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Niche atirlar">
+  <defs>
+    <linearGradient id="gv1jlwr" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B98CAC"/>
+      <stop offset="52%" stop-color="#7A4A6B"/>
+      <stop offset="100%" stop-color="#4E2C44"/>
+    </linearGradient>
+    <linearGradient id="ev1jlwr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B98CAC"/>
+      <stop offset="100%" stop-color="#7A4A6B"/>
+    </linearGradient>
+    <linearGradient id="cv1jlwr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#2A1826"/>
+    </linearGradient>
+    <linearGradient id="bgv1jlwr" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#B98CAC" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgv1jlwr)"/>
+  <ellipse cx="400" cy="760" rx="180" ry="24" fill="#000000" opacity="0.1"/>
+  <g transform="translate(400 520) scale(1.5) translate(-250 -330)">
+    
+        <rect x="150" y="230" width="200" height="240" rx="16" fill="url(#gv1jlwr)" stroke="url(#ev1jlwr)" stroke-width="2"/>
+        <rect x="215" y="196" width="70" height="40" fill="url(#ev1jlwr)" opacity="0.85"/>
+        <rect x="205" y="150" width="90" height="52" rx="6" fill="url(#cv1jlwr)"/>
+        <rect x="176" y="300" width="148" height="112" rx="6" fill="#FFFFFF" opacity="0.14"/>
+  </g>
+  <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-size="42"
+        fill="#2A2620">Niche atirlar</text>
+</svg>
