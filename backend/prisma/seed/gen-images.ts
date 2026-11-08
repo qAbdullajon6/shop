@@ -1,18 +1,18 @@
 import { generateBannerImage, generateBrandLogo, generateCategoryImage, generateProductImages, clearGeneratedImages } from './images';
 
 const CATEGORIES = [
-  { slug: 'erkaklar-atiri',  name_uz: 'Erkaklar atiri',   palette: 'amber' as const, shape: 'hexagon' as const },
-  { slug: 'ayollar-atiri',   name_uz: "Ayollar atiri",    palette: 'rose'  as const, shape: 'circle'  as const },
-  { slug: 'niche-atir',      name_uz: 'Niche atir',       palette: 'noir'  as const, shape: 'diamond' as const },
-  { slug: 'body-mist',       name_uz: 'Body Mist',        palette: 'rose'  as const, shape: 'circle'  as const },
-  { slug: 'dush-geli',       name_uz: 'Dush geli',        palette: 'amber' as const, shape: 'hexagon' as const },
-  { slug: 'xushboy-sovun',   name_uz: "Xushbo'y sovun",   palette: 'rose'  as const, shape: 'circle'  as const },
-  { slug: 'shamlar',         name_uz: 'Shamlar',          palette: 'amber' as const, shape: 'hexagon' as const },
-  { slug: 'xona-aromalari',  name_uz: 'Xona aromalari',   palette: 'noir'  as const, shape: 'diamond' as const },
-  { slug: 'soch-parfum',     name_uz: 'Soch parfumi',     palette: 'rose'  as const, shape: 'circle'  as const },
-  { slug: 'avtomobil-aroma', name_uz: 'Avtomobil aroma',  palette: 'noir'  as const, shape: 'diamond' as const },
-  { slug: 'gift-box',        name_uz: "Sovg'a qutilari",  palette: 'amber' as const, shape: 'hexagon' as const },
-  { slug: 'parfyum-set',     name_uz: 'Parfyum set',      palette: 'rose'  as const, shape: 'circle'  as const },
+  { slug: 'erkaklar-atiri',  name_uz: 'Erkaklar atiri',   palette: 'amber' as const, shape: 'flacon'   as const },
+  { slug: 'ayollar-atiri',   name_uz: "Ayollar atiri",    palette: 'rose'  as const, shape: 'flacon'   as const },
+  { slug: 'niche-atir',      name_uz: 'Niche atir',       palette: 'noir'  as const, shape: 'flacon'   as const },
+  { slug: 'body-mist',       name_uz: 'Body Mist',        palette: 'rose'  as const, shape: 'tall'     as const },
+  { slug: 'dush-geli',       name_uz: 'Dush geli',        palette: 'amber' as const, shape: 'tube'     as const },
+  { slug: 'xushboy-sovun',   name_uz: "Xushbo'y sovun",   palette: 'rose'  as const, shape: 'bar'      as const },
+  { slug: 'shamlar',         name_uz: 'Shamlar',          palette: 'amber' as const, shape: 'candle'   as const },
+  { slug: 'xona-aromalari',  name_uz: 'Xona aromalari',   palette: 'noir'  as const, shape: 'diffuser' as const },
+  { slug: 'soch-parfum',     name_uz: 'Soch parfumi',     palette: 'rose'  as const, shape: 'tall'     as const },
+  { slug: 'avtomobil-aroma', name_uz: 'Avtomobil aroma',  palette: 'noir'  as const, shape: 'car'      as const },
+  { slug: 'gift-box',        name_uz: "Sovg'a qutilari",  palette: 'amber' as const, shape: 'box'      as const },
+  { slug: 'parfyum-set',     name_uz: 'Parfyum set',      palette: 'rose'  as const, shape: 'box'      as const },
 ];
 
 const BRANDS = [

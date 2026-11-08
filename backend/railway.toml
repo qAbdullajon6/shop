@@ -1,9 +1,8 @@
 [build]
-builder = "DOCKERFILE"
-dockerfilePath = "Dockerfile"
+buildCommand = "npm install && npm run build"
 
 [deploy]
-startCommand = "echo \"const {defineConfig}=require('prisma/config');module.exports=defineConfig({schema:'prisma/schema.prisma',datasource:{url:process.env.DATABASE_URL}})\" > prisma.config.js && ./node_modules/.bin/prisma generate && node dist/src/main"
+startCommand = "node dist/prisma/seed/gen-images.js && node dist/src/main"
 preDeployCommand = "./node_modules/.bin/prisma migrate deploy"
 healthcheckPath = "/api/health"
 healthcheckTimeout = 60
