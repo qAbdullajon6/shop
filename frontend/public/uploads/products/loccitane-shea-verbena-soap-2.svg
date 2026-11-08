@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="loccitane L&apos;Occitane Shea Verbena Soap">
+  <defs>
+    <linearGradient id="g9rrzfw" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0D278"/>
+      <stop offset="52%" stop-color="#D4A017"/>
+      <stop offset="100%" stop-color="#8F6B0F"/>
+    </linearGradient>
+    <linearGradient id="e9rrzfw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D278"/>
+      <stop offset="100%" stop-color="#D4A017"/>
+    </linearGradient>
+    <linearGradient id="c9rrzfw" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#3A2E10"/>
+    </linearGradient>
+    <radialGradient id="bg9rrzfw" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#D4A017" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8F6B0F"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="620" fill="url(#bg9rrzfw)"/>
+
+  <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
+
+  <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
+    
+        <rect x="140" y="250" width="220" height="150" rx="34" fill="url(#g9rrzfw)" stroke="url(#e9rrzfw)" stroke-width="2"/>
+        <rect x="140" y="250" width="220" height="46" rx="24" fill="#FFFFFF" opacity="0.16"/>
+        <circle cx="250" cy="326" r="42" fill="none" stroke="url(#c9rrzfw)" stroke-width="3" opacity="0.7"/>
+  </g>
+
+  <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        letter-spacing="4" fill="#F0D278">LOCCITANE</text>
+  <text x="250" y="574" text-anchor="middle" font-family="Georgia, serif" font-size="21"
+        fill="#F5EFE3">L&apos;Occitane Shea Verbena Soap</text>
+  <text x="250" y="598" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12"
+        letter-spacing="2" fill="#F0D278">100g</text>
+</svg>

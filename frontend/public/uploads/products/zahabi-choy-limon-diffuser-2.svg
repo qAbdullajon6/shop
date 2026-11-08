@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="zahabi-maison Zahabi Choy va Limon Diffuzori">
+  <defs>
+    <linearGradient id="g7a2vo6" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F0D278"/>
+      <stop offset="52%" stop-color="#D4A017"/>
+      <stop offset="100%" stop-color="#8F6B0F"/>
+    </linearGradient>
+    <linearGradient id="e7a2vo6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F0D278"/>
+      <stop offset="100%" stop-color="#D4A017"/>
+    </linearGradient>
+    <linearGradient id="c7a2vo6" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#3A2E10"/>
+    </linearGradient>
+    <radialGradient id="bg7a2vo6" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#D4A017" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#8F6B0F"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="620" fill="url(#bg7a2vo6)"/>
+
+  <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
+
+  <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
+    
+        <path d="M186 300h128l14 150a16 16 0 0 1-16 18H188a16 16 0 0 1-16-18z" fill="url(#g7a2vo6)" stroke="url(#e7a2vo6)" stroke-width="2"/>
+        <rect x="222" y="262" width="56" height="42" fill="url(#e7a2vo6)" opacity="0.8"/>
+        <g stroke="url(#c7a2vo6)" stroke-width="7" stroke-linecap="round" opacity="0.9">
+          <line x1="236" y1="268" x2="200" y2="120"/>
+          <line x1="250" y1="266" x2="252" y2="104"/>
+          <line x1="264" y1="268" x2="300" y2="126"/>
+        </g>
+  </g>
+
+  <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        letter-spacing="4" fill="#F0D278">ZAHABI-MAISON</text>
+  <text x="250" y="574" text-anchor="middle" font-family="Georgia, serif" font-size="21"
+        fill="#F5EFE3">Zahabi Choy va Limon Diffuzori</text>
+  <text x="250" y="598" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12"
+        letter-spacing="2" fill="#F0D278">200ml</text>
+</svg>

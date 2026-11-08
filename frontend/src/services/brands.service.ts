@@ -1,11 +1,11 @@
-import { apiGet } from "@/lib/api";
-import { API_ENDPOINTS } from "@/constants";
 import type { Brand } from "@/types";
+import { staticBrands } from "@/data/static-data";
 
 export const brandsService = {
-  getAll: () =>
-    apiGet<Brand[]>(API_ENDPOINTS.BRANDS.LIST),
-
-  getBySlug: (slug: string) =>
-    apiGet<Brand>(API_ENDPOINTS.BRANDS.DETAIL(slug)),
+  getAll: (): Promise<Brand[]> => Promise.resolve(staticBrands),
+  getBySlug: (slug: string): Promise<Brand> => {
+    const brand = staticBrands.find(b => b.slug === slug);
+    if (!brand) return Promise.reject(new Error("Not found"));
+    return Promise.resolve(brand);
+  },
 };

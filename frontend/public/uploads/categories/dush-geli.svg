@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Dush geli">
+  <defs>
+    <linearGradient id="gh0zf2q" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3B778"/>
+      <stop offset="52%" stop-color="#B87333"/>
+      <stop offset="100%" stop-color="#7A4A1E"/>
+    </linearGradient>
+    <linearGradient id="eh0zf2q" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3B778"/>
+      <stop offset="100%" stop-color="#B87333"/>
+    </linearGradient>
+    <linearGradient id="ch0zf2q" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#3A2A18"/>
+    </linearGradient>
+    <linearGradient id="bgh0zf2q" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#E3B778" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgh0zf2q)"/>
+  <ellipse cx="400" cy="760" rx="180" ry="24" fill="#000000" opacity="0.1"/>
+  <g transform="translate(400 520) scale(1.5) translate(-250 -330)">
+    
+        <rect x="196" y="168" width="108" height="300" rx="26" fill="url(#gh0zf2q)" stroke="url(#eh0zf2q)" stroke-width="2"/>
+        <rect x="196" y="168" width="108" height="22" rx="10" fill="url(#eh0zf2q)" opacity="0.7"/>
+        <rect x="220" y="126" width="60" height="46" rx="10" fill="url(#ch0zf2q)"/>
+        <rect x="214" y="240" width="72" height="160" rx="6" fill="#FFFFFF" opacity="0.14"/>
+  </g>
+  <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-size="42"
+        fill="#2A2620">Dush geli</text>
+</svg>

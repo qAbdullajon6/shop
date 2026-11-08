@@ -1,28 +1,35 @@
-import { apiGet } from "@/lib/api";
-import { API_ENDPOINTS } from "@/constants";
 import type { Product, ProductFilter, ProductsResponse, ProductFacets, Category, CategoryAttribute } from "@/types";
+import { staticProducts, staticCategories, getStaticProductsResponse, getStaticFacets } from "@/data/static-data";
 
 export const productsService = {
-  getAll: (filters?: ProductFilter) =>
-    apiGet<ProductsResponse>(API_ENDPOINTS.PRODUCTS.LIST, { params: filters }),
+  getAll: (filters?: ProductFilter): Promise<ProductsResponse> =>
+    Promise.resolve(getStaticProductsResponse(filters as Parameters<typeof getStaticProductsResponse>[0])),
 
-  getFacets: (categorySlug?: string) =>
-    apiGet<ProductFacets>(API_ENDPOINTS.PRODUCTS.FACETS, {
-      params: categorySlug ? { category_slug: categorySlug } : undefined,
-    }),
+  getFacets: (_categorySlug?: string): Promise<ProductFacets> =>
+    Promise.resolve(getStaticFacets()),
 
-  getBySlug: (slug: string) =>
-    apiGet<Product>(API_ENDPOINTS.PRODUCTS.DETAIL(slug)),
+  getBySlug: (slug: string): Promise<Product> => {
+    const product = staticProducts.find(p => p.slug === slug);
+    if (!product) return Promise.reject(new Error("Not found"));
+    return Promise.resolve(product);
+  },
 
-  getSimilar: (slug: string) =>
-    apiGet<Product[]>(API_ENDPOINTS.PRODUCTS.SIMILAR(slug)),
+  getSimilar: (slug: string): Promise<Product[]> => {
+    const product = staticProducts.find(p => p.slug === slug);
+    if (!product) return Promise.resolve([]);
+    return Promise.resolve(
+      staticProducts.filter(p => p.slug !== slug && p.category.slug === product.category.slug).slice(0, 8)
+    );
+  },
 
-  getCategories: () =>
-    apiGet<Category[]>(API_ENDPOINTS.CATEGORIES.LIST),
+  getCategories: (): Promise<Category[]> => Promise.resolve(staticCategories),
 
-  getCategoryBySlug: (slug: string) =>
-    apiGet<Category>(API_ENDPOINTS.CATEGORIES.DETAIL(slug)),
+  getCategoryBySlug: (slug: string): Promise<Category> => {
+    const cat = staticCategories.find(c => c.slug === slug);
+    if (!cat) return Promise.reject(new Error("Not found"));
+    return Promise.resolve(cat);
+  },
 
-  getCategoryAttributes: (category_id: string) =>
-    apiGet<CategoryAttribute[]>(API_ENDPOINTS.CATEGORY_ATTRIBUTES, { params: { category_id } }),
+  getCategoryAttributes: (_category_id: string): Promise<CategoryAttribute[]> =>
+    Promise.resolve([]),
 };

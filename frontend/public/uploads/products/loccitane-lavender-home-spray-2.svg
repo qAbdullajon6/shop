@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="loccitane L&apos;Occitane Lavender Home Spray">
+  <defs>
+    <linearGradient id="gul58c7" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#B98CAC"/>
+      <stop offset="52%" stop-color="#7A4A6B"/>
+      <stop offset="100%" stop-color="#4E2C44"/>
+    </linearGradient>
+    <linearGradient id="eul58c7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#B98CAC"/>
+      <stop offset="100%" stop-color="#7A4A6B"/>
+    </linearGradient>
+    <linearGradient id="cul58c7" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#2A1826"/>
+    </linearGradient>
+    <radialGradient id="bgul58c7" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#7A4A6B" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#4E2C44"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="620" fill="url(#bgul58c7)"/>
+
+  <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
+
+  <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
+    
+        <rect x="182" y="180" width="136" height="300" rx="14" fill="url(#gul58c7)" stroke="url(#eul58c7)" stroke-width="2"/>
+        <rect x="228" y="146" width="44" height="38" fill="url(#eul58c7)" opacity="0.85"/>
+        <rect x="216" y="104" width="68" height="46" rx="8" fill="url(#cul58c7)"/>
+        <rect x="202" y="250" width="96" height="150" rx="6" fill="#FFFFFF" opacity="0.14"/>
+  </g>
+
+  <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        letter-spacing="4" fill="#B98CAC">LOCCITANE</text>
+  <text x="250" y="574" text-anchor="middle" font-family="Georgia, serif" font-size="21"
+        fill="#F5EFE3">L&apos;Occitane Lavender Home Spray</text>
+  <text x="250" y="598" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12"
+        letter-spacing="2" fill="#B98CAC">100ml</text>
+</svg>

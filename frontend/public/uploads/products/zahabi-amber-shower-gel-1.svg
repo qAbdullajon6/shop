@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="zahabi-maison Zahabi Amber Dush Geli">
+  <defs>
+    <linearGradient id="g8xa5hu" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E3B778"/>
+      <stop offset="52%" stop-color="#B87333"/>
+      <stop offset="100%" stop-color="#7A4A1E"/>
+    </linearGradient>
+    <linearGradient id="e8xa5hu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E3B778"/>
+      <stop offset="100%" stop-color="#B87333"/>
+    </linearGradient>
+    <linearGradient id="c8xa5hu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#3A2A18"/>
+    </linearGradient>
+    <radialGradient id="bg8xa5hu" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFDF9"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="620" fill="url(#bg8xa5hu)"/>
+
+  <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.1"/>
+
+  <g transform="translate(250 330) rotate(0) scale(1) translate(-250 -330)">
+    
+        <rect x="196" y="168" width="108" height="300" rx="26" fill="url(#g8xa5hu)" stroke="url(#e8xa5hu)" stroke-width="2"/>
+        <rect x="196" y="168" width="108" height="22" rx="10" fill="url(#e8xa5hu)" opacity="0.7"/>
+        <rect x="220" y="126" width="60" height="46" rx="10" fill="url(#c8xa5hu)"/>
+        <rect x="214" y="240" width="72" height="160" rx="6" fill="#FFFFFF" opacity="0.14"/>
+  </g>
+
+  <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        letter-spacing="4" fill="#8A837A">ZAHABI-MAISON</text>
+  <text x="250" y="574" text-anchor="middle" font-family="Georgia, serif" font-size="21"
+        fill="#2A2620">Zahabi Amber Dush Geli</text>
+  <text x="250" y="598" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12"
+        letter-spacing="2" fill="#8A837A">300ml</text>
+</svg>

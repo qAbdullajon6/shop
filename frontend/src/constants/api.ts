@@ -4,7 +4,7 @@ export const BACKEND_ORIGIN = import.meta.env.VITE_BACKEND_ORIGIN ?? "";
 export const imgUrl = (path: string | null | undefined): string | null => {
   if (!path) return null;
   if (path.startsWith("http")) return path;
-  return `${BACKEND_ORIGIN}/${path}`;
+  return `/${path}`;
 };
 
 export const API_ENDPOINTS = {

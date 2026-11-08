@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="prada Prada Paradoxe">
+  <defs>
+    <linearGradient id="g3jqdns" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F2EADB"/>
+      <stop offset="52%" stop-color="#D9CDB8"/>
+      <stop offset="100%" stop-color="#A8967A"/>
+    </linearGradient>
+    <linearGradient id="e3jqdns" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F2EADB"/>
+      <stop offset="100%" stop-color="#D9CDB8"/>
+    </linearGradient>
+    <linearGradient id="c3jqdns" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#4A4034"/>
+    </linearGradient>
+    <radialGradient id="bg3jqdns" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#FFFDF9"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="500" height="620" fill="url(#bg3jqdns)"/>
+
+  <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.1"/>
+
+  <g transform="translate(250 330) rotate(0) scale(1) translate(-250 -330)">
+    
+        <rect x="150" y="230" width="200" height="240" rx="16" fill="url(#g3jqdns)" stroke="url(#e3jqdns)" stroke-width="2"/>
+        <rect x="215" y="196" width="70" height="40" fill="url(#e3jqdns)" opacity="0.85"/>
+        <rect x="205" y="150" width="90" height="52" rx="6" fill="url(#c3jqdns)"/>
+        <rect x="176" y="300" width="148" height="112" rx="6" fill="#FFFFFF" opacity="0.14"/>
+  </g>
+
+  <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"
+        letter-spacing="4" fill="#8A837A">PRADA</text>
+  <text x="250" y="574" text-anchor="middle" font-family="Georgia, serif" font-size="21"
+        fill="#2A2620">Prada Paradoxe</text>
+  <text x="250" y="598" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="12"
+        letter-spacing="2" fill="#8A837A">30ml</text>
+</svg>

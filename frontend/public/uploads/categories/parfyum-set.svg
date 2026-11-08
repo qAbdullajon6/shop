@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Parfyum set">
+  <defs>
+    <linearGradient id="gpr0c2r" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E8A9B8"/>
+      <stop offset="52%" stop-color="#C4647A"/>
+      <stop offset="100%" stop-color="#8A3F52"/>
+    </linearGradient>
+    <linearGradient id="epr0c2r" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#E8A9B8"/>
+      <stop offset="100%" stop-color="#C4647A"/>
+    </linearGradient>
+    <linearGradient id="cpr0c2r" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4A852"/>
+      <stop offset="100%" stop-color="#3A1E26"/>
+    </linearGradient>
+    <linearGradient id="bgpr0c2r" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFDF9"/>
+      <stop offset="100%" stop-color="#E8A9B8" stop-opacity="0.55"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="1000" fill="url(#bgpr0c2r)"/>
+  <ellipse cx="400" cy="760" rx="180" ry="24" fill="#000000" opacity="0.1"/>
+  <g transform="translate(400 520) scale(1.5) translate(-250 -330)">
+    
+        <rect x="132" y="252" width="236" height="196" rx="10" fill="url(#gpr0c2r)" stroke="url(#epr0c2r)" stroke-width="2"/>
+        <rect x="132" y="252" width="236" height="44" rx="8" fill="url(#epr0c2r)" opacity="0.75"/>
+        <rect x="236" y="252" width="28" height="196" fill="url(#cpr0c2r)" opacity="0.55"/>
+        <path d="M250 252c-26-34-58-40-70-24-10 14 6 24 70 24zm0 0c26-34 58-40 70-24 10 14-6 24-70 24z" fill="url(#cpr0c2r)" opacity="0.8"/>
+  </g>
+  <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-size="42"
+        fill="#2A2620">Parfyum set</text>
+</svg>

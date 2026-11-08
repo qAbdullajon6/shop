@@ -1,11 +1,11 @@
-import { apiGet } from "@/lib/api";
-import { API_ENDPOINTS } from "@/constants";
 import type { Banner } from "@/types";
+import { staticBanners } from "@/data/static-data";
 
 export const bannersService = {
-  getAll: () =>
-    apiGet<Banner[]>(API_ENDPOINTS.BANNERS.LIST),
-
-  getById: (id: string) =>
-    apiGet<Banner>(API_ENDPOINTS.BANNERS.DETAIL(id)),
+  getAll: (): Promise<Banner[]> => Promise.resolve(staticBanners),
+  getById: (id: string): Promise<Banner> => {
+    const banner = staticBanners.find(b => b.id === id);
+    if (!banner) return Promise.reject(new Error("Not found"));
+    return Promise.resolve(banner);
+  },
 };

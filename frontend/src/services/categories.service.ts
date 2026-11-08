@@ -1,8 +1,11 @@
-import { apiGet } from "@/lib/api";
-import { API_ENDPOINTS } from "@/constants";
 import type { Category } from "@/types";
+import { staticCategories } from "@/data/static-data";
 
 export const categoriesService = {
-  getAll: () => apiGet<Category[]>(API_ENDPOINTS.CATEGORIES.LIST),
-  getBySlug: (slug: string) => apiGet<Category>(API_ENDPOINTS.CATEGORIES.DETAIL(slug)),
+  getAll: (): Promise<Category[]> => Promise.resolve(staticCategories),
+  getBySlug: (slug: string): Promise<Category> => {
+    const cat = staticCategories.find(c => c.slug === slug);
+    if (!cat) return Promise.reject(new Error("Not found"));
+    return Promise.resolve(cat);
+  },
 };
