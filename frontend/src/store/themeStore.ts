@@ -54,8 +54,6 @@ export function applyThemeToDOM(theme: Theme) {
   root.classList.toggle("dark", theme === "dark");
 }
 
-const getSystemTheme = (): Theme =>
-  window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
 
 interface ThemeState {
   theme: Theme;
