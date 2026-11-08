@@ -2,6 +2,9 @@ import { useEffect, useRef } from "react";
 import { useAuthStore } from "@/store/authStore";
 import { authService } from "@/services/auth.service";
 import { tokens } from "@/lib/tokens";
+import { usePhoneAuthStore } from "@/store/phoneAuthStore";
+import { useThemeStore } from "@/store/themeStore";
+import { applyThemeToDOM } from "@/store/themeStore";
 import {
   isTelegramMiniApp,
   getTelegramInitData,
@@ -23,6 +26,8 @@ export function TelegramAutoAuth() {
   const setUser = useAuthStore((s) => s.setUser);
   const setLoading = useAuthStore((s) => s.setLoading);
   const isAuthenticated = useAuthStore((s) => s.isAuthenticated);
+  const closeAuthModal = usePhoneAuthStore((s) => s.close);
+  const setTheme = useThemeStore((s) => s.theme);
   const attempted = useRef(false);
 
   useEffect(() => {
@@ -32,14 +37,18 @@ export function TelegramAutoAuth() {
 
     initTelegramWebApp();
 
-    // Allaqachon kirgan bo'lsa qayta autentifikatsiya shart emas.
+    // Telegram Mini App da har doim light mode
+    applyThemeToDOM("light");
+    useThemeStore.setState({ theme: "light" });
+
+    // Login modalini yopish
+    closeAuthModal();
+
     if (isAuthenticated) return;
 
     const initData = getTelegramInitData();
     if (!initData) return;
 
-    // isLoading=true so ProfilePage shows a spinner instead of the
-    // "please login" screen during the auth round-trip.
     setLoading(true);
     authService
       .telegramLogin(initData)
@@ -48,12 +57,12 @@ export function TelegramAutoAuth() {
         setUser(res.user);
       })
       .catch(() => {
-        // Invalid/expired initData — let the user log in via OTP.
+        // Backend yo'q — foydalanuvchi login qilmasdan ko'rish mumkin
       })
       .finally(() => {
         setLoading(false);
       });
-  }, [isAuthenticated, setUser, setLoading]);
+  }, [isAuthenticated, setUser, setLoading, closeAuthModal, setTheme]);
 
   return null;
 }
