@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 900" width="1920" height="900" role="img" aria-label="Eng Ko&apos;p Sotilganlar">
+  <defs>
+    <linearGradient id="bgn16ucf" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1A1A1A"/>
+      <stop offset="55%" stop-color="#3A3A3A"/>
+      <stop offset="100%" stop-color="#7A7A7A"/>
+    </linearGradient>
+    <radialGradient id="glown16ucf" cx="72%" cy="42%" r="46%">
+      <stop offset="0%" stop-color="#F5E3BC" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="900" fill="url(#bgn16ucf)"/>
+  <rect width="1920" height="900" fill="url(#glown16ucf)"/>
+  <g opacity="0.16" stroke="#F5E3BC" stroke-width="1.5" fill="none">
+    <circle cx="1400" cy="450" r="220"/>
+    <circle cx="1400" cy="450" r="300"/>
+    <circle cx="1400" cy="450" r="380"/>
+  </g>
+  <text x="150" y="404" font-family="Helvetica, Arial, sans-serif" font-size="22"
+        letter-spacing="10" fill="#E8D3A8">ZAHABI PARFUME</text>
+  <text x="150" y="500" font-family="Georgia, serif" font-size="76"
+        fill="#FFFDF9">Eng Ko&apos;p Sotilganlar</text>
+  <text x="150" y="560" font-family="Helvetica, Arial, sans-serif" font-size="26"
+        fill="#EFE3CC" opacity="0.92">Dunyoning eng mashhur atirlarini kashf eting</text>
+</svg>

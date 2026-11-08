@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="jo-malone Jo Malone Lime Basil &amp; Mandarin Candle">
   <defs>
-    <linearGradient id="gw9s02o" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g198gb8" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#F0D278"/>
       <stop offset="52%" stop-color="#D4A017"/>
       <stop offset="100%" stop-color="#8F6B0F"/>
     </linearGradient>
-    <linearGradient id="ew9s02o" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="e198gb8" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#F0D278"/>
       <stop offset="100%" stop-color="#D4A017"/>
     </linearGradient>
-    <linearGradient id="cw9s02o" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="c198gb8" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#3A2E10"/>
     </linearGradient>
-    <radialGradient id="bgw9s02o" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bg198gb8" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
       <stop offset="100%" stop-color="#FFFDF9"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgw9s02o)"/>
+  <rect width="500" height="620" fill="url(#bg198gb8)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.1"/>
 
   <g transform="translate(250 330) rotate(0) scale(1) translate(-250 -330)">
     
-        <rect x="158" y="250" width="184" height="210" rx="12" fill="url(#gw9s02o)" stroke="url(#ew9s02o)" stroke-width="2"/>
-        <ellipse cx="250" cy="250" rx="92" ry="20" fill="url(#ew9s02o)" opacity="0.6"/>
+        <rect x="158" y="250" width="184" height="210" rx="12" fill="url(#g198gb8)" stroke="url(#e198gb8)" stroke-width="2"/>
+        <ellipse cx="250" cy="250" rx="92" ry="20" fill="url(#e198gb8)" opacity="0.6"/>
         <ellipse cx="250" cy="252" rx="74" ry="14" fill="#F5EFE3" opacity="0.85"/>
         <rect x="247" y="214" width="6" height="38" rx="3" fill="#0A0A0A"/>
         <path d="M250 178c14 18 20 28 20 38a20 20 0 0 1-40 0c0-10 6-20 20-38z" fill="#F5C97B" opacity="0.9"/>

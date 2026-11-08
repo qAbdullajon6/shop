@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="jo-malone Jo Malone Lime Basil &amp; Mandarin Diffuser">
   <defs>
-    <linearGradient id="g7vwse4" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gnazud2" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#F0D278"/>
       <stop offset="52%" stop-color="#D4A017"/>
       <stop offset="100%" stop-color="#8F6B0F"/>
     </linearGradient>
-    <linearGradient id="e7vwse4" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="enazud2" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#F0D278"/>
       <stop offset="100%" stop-color="#D4A017"/>
     </linearGradient>
-    <linearGradient id="c7vwse4" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="cnazud2" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#3A2E10"/>
     </linearGradient>
-    <radialGradient id="bg7vwse4" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgnazud2" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#D4A017" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#8F6B0F"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bg7vwse4)"/>
+  <rect width="500" height="620" fill="url(#bgnazud2)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
 
   <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
     
-        <path d="M186 300h128l14 150a16 16 0 0 1-16 18H188a16 16 0 0 1-16-18z" fill="url(#g7vwse4)" stroke="url(#e7vwse4)" stroke-width="2"/>
-        <rect x="222" y="262" width="56" height="42" fill="url(#e7vwse4)" opacity="0.8"/>
-        <g stroke="url(#c7vwse4)" stroke-width="7" stroke-linecap="round" opacity="0.9">
+        <path d="M186 300h128l14 150a16 16 0 0 1-16 18H188a16 16 0 0 1-16-18z" fill="url(#gnazud2)" stroke="url(#enazud2)" stroke-width="2"/>
+        <rect x="222" y="262" width="56" height="42" fill="url(#enazud2)" opacity="0.8"/>
+        <g stroke="url(#cnazud2)" stroke-width="7" stroke-linecap="round" opacity="0.9">
           <line x1="236" y1="268" x2="200" y2="120"/>
           <line x1="250" y1="266" x2="252" y2="104"/>
           <line x1="264" y1="268" x2="300" y2="126"/>

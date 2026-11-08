@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="diptyque Diptyque Baies Reed Diffuser">
   <defs>
-    <linearGradient id="gj3ybmo" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gm87nc0" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#B98CAC"/>
       <stop offset="52%" stop-color="#7A4A6B"/>
       <stop offset="100%" stop-color="#4E2C44"/>
     </linearGradient>
-    <linearGradient id="ej3ybmo" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="em87nc0" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#B98CAC"/>
       <stop offset="100%" stop-color="#7A4A6B"/>
     </linearGradient>
-    <linearGradient id="cj3ybmo" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="cm87nc0" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#2A1826"/>
     </linearGradient>
-    <radialGradient id="bgj3ybmo" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgm87nc0" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
       <stop offset="100%" stop-color="#FFFDF9"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgj3ybmo)"/>
+  <rect width="500" height="620" fill="url(#bgm87nc0)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.1"/>
 
   <g transform="translate(250 330) rotate(0) scale(1) translate(-250 -330)">
     
-        <path d="M186 300h128l14 150a16 16 0 0 1-16 18H188a16 16 0 0 1-16-18z" fill="url(#gj3ybmo)" stroke="url(#ej3ybmo)" stroke-width="2"/>
-        <rect x="222" y="262" width="56" height="42" fill="url(#ej3ybmo)" opacity="0.8"/>
-        <g stroke="url(#cj3ybmo)" stroke-width="7" stroke-linecap="round" opacity="0.9">
+        <path d="M186 300h128l14 150a16 16 0 0 1-16 18H188a16 16 0 0 1-16-18z" fill="url(#gm87nc0)" stroke="url(#em87nc0)" stroke-width="2"/>
+        <rect x="222" y="262" width="56" height="42" fill="url(#em87nc0)" opacity="0.8"/>
+        <g stroke="url(#cm87nc0)" stroke-width="7" stroke-linecap="round" opacity="0.9">
           <line x1="236" y1="268" x2="200" y2="120"/>
           <line x1="250" y1="266" x2="252" y2="104"/>
           <line x1="264" y1="268" x2="300" y2="126"/>

@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="mfk MFK Baccarat Rouge 540">
   <defs>
-    <linearGradient id="gtd8q6n" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g3rjp0w" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#E8A9B8"/>
       <stop offset="52%" stop-color="#C4647A"/>
       <stop offset="100%" stop-color="#8A3F52"/>
     </linearGradient>
-    <linearGradient id="etd8q6n" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="e3rjp0w" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#E8A9B8"/>
       <stop offset="100%" stop-color="#C4647A"/>
     </linearGradient>
-    <linearGradient id="ctd8q6n" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="c3rjp0w" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#3A1E26"/>
     </linearGradient>
-    <radialGradient id="bgtd8q6n" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bg3rjp0w" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
       <stop offset="100%" stop-color="#FFFDF9"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgtd8q6n)"/>
+  <rect width="500" height="620" fill="url(#bg3rjp0w)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.1"/>
 
   <g transform="translate(250 330) rotate(0) scale(1) translate(-250 -330)">
     
-        <rect x="150" y="230" width="200" height="240" rx="16" fill="url(#gtd8q6n)" stroke="url(#etd8q6n)" stroke-width="2"/>
-        <rect x="215" y="196" width="70" height="40" fill="url(#etd8q6n)" opacity="0.85"/>
-        <rect x="205" y="150" width="90" height="52" rx="6" fill="url(#ctd8q6n)"/>
+        <rect x="150" y="230" width="200" height="240" rx="16" fill="url(#g3rjp0w)" stroke="url(#e3rjp0w)" stroke-width="2"/>
+        <rect x="215" y="196" width="70" height="40" fill="url(#e3rjp0w)" opacity="0.85"/>
+        <rect x="205" y="150" width="90" height="52" rx="6" fill="url(#c3rjp0w)"/>
         <rect x="176" y="300" width="148" height="112" rx="6" fill="#FFFFFF" opacity="0.14"/>
   </g>
 

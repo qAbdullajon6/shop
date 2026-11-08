@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="rituals Rituals Hashamatli Sovg&apos;a Quti">
   <defs>
-    <linearGradient id="g4n77we" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gti6rra" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#9BC7A6"/>
       <stop offset="52%" stop-color="#4A7C59"/>
       <stop offset="100%" stop-color="#2C4E36"/>
     </linearGradient>
-    <linearGradient id="e4n77we" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="eti6rra" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#9BC7A6"/>
       <stop offset="100%" stop-color="#4A7C59"/>
     </linearGradient>
-    <linearGradient id="c4n77we" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="cti6rra" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#16281C"/>
     </linearGradient>
-    <radialGradient id="bg4n77we" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgti6rra" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#4A7C59" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#2C4E36"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bg4n77we)"/>
+  <rect width="500" height="620" fill="url(#bgti6rra)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
 
   <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
     
-        <rect x="132" y="252" width="236" height="196" rx="10" fill="url(#g4n77we)" stroke="url(#e4n77we)" stroke-width="2"/>
-        <rect x="132" y="252" width="236" height="44" rx="8" fill="url(#e4n77we)" opacity="0.75"/>
-        <rect x="236" y="252" width="28" height="196" fill="url(#c4n77we)" opacity="0.55"/>
-        <path d="M250 252c-26-34-58-40-70-24-10 14 6 24 70 24zm0 0c26-34 58-40 70-24 10 14-6 24-70 24z" fill="url(#c4n77we)" opacity="0.8"/>
+        <rect x="132" y="252" width="236" height="196" rx="10" fill="url(#gti6rra)" stroke="url(#eti6rra)" stroke-width="2"/>
+        <rect x="132" y="252" width="236" height="44" rx="8" fill="url(#eti6rra)" opacity="0.75"/>
+        <rect x="236" y="252" width="28" height="196" fill="url(#cti6rra)" opacity="0.55"/>
+        <path d="M250 252c-26-34-58-40-70-24-10 14 6 24 70 24zm0 0c26-34 58-40 70-24 10 14-6 24-70 24z" fill="url(#cti6rra)" opacity="0.8"/>
   </g>
 
   <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"

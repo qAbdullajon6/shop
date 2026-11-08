@@ -1,32 +1,32 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="yankee-candle Yankee Candle Clean Cotton">
   <defs>
-    <linearGradient id="gj4r7um" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gn4h5j9" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#9BC4DE"/>
       <stop offset="52%" stop-color="#4A7FA5"/>
       <stop offset="100%" stop-color="#2C5170"/>
     </linearGradient>
-    <linearGradient id="ej4r7um" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="en4h5j9" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#9BC4DE"/>
       <stop offset="100%" stop-color="#4A7FA5"/>
     </linearGradient>
-    <linearGradient id="cj4r7um" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="cn4h5j9" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#16262F"/>
     </linearGradient>
-    <radialGradient id="bgj4r7um" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgn4h5j9" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#4A7FA5" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#2C5170"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgj4r7um)"/>
+  <rect width="500" height="620" fill="url(#bgn4h5j9)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
 
   <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
     
-        <rect x="158" y="250" width="184" height="210" rx="12" fill="url(#gj4r7um)" stroke="url(#ej4r7um)" stroke-width="2"/>
-        <ellipse cx="250" cy="250" rx="92" ry="20" fill="url(#ej4r7um)" opacity="0.6"/>
+        <rect x="158" y="250" width="184" height="210" rx="12" fill="url(#gn4h5j9)" stroke="url(#en4h5j9)" stroke-width="2"/>
+        <ellipse cx="250" cy="250" rx="92" ry="20" fill="url(#en4h5j9)" opacity="0.6"/>
         <ellipse cx="250" cy="252" rx="74" ry="14" fill="#F5EFE3" opacity="0.85"/>
         <rect x="247" y="214" width="6" height="38" rx="3" fill="#0A0A0A"/>
         <path d="M250 178c14 18 20 28 20 38a20 20 0 0 1-40 0c0-10 6-20 20-38z" fill="#F5C97B" opacity="0.9"/>

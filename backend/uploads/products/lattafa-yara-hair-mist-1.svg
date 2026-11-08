@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="lattafa Lattafa Yara Hair Mist">
   <defs>
-    <linearGradient id="gvbvvev" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gwycj47" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#E8A9B8"/>
       <stop offset="52%" stop-color="#C4647A"/>
       <stop offset="100%" stop-color="#8A3F52"/>
     </linearGradient>
-    <linearGradient id="evbvvev" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="ewycj47" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#E8A9B8"/>
       <stop offset="100%" stop-color="#C4647A"/>
     </linearGradient>
-    <linearGradient id="cvbvvev" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="cwycj47" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#3A1E26"/>
     </linearGradient>
-    <radialGradient id="bgvbvvev" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgwycj47" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
       <stop offset="100%" stop-color="#FFFDF9"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgvbvvev)"/>
+  <rect width="500" height="620" fill="url(#bgwycj47)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.1"/>
 
   <g transform="translate(250 330) rotate(0) scale(1) translate(-250 -330)">
     
-        <rect x="182" y="180" width="136" height="300" rx="14" fill="url(#gvbvvev)" stroke="url(#evbvvev)" stroke-width="2"/>
-        <rect x="228" y="146" width="44" height="38" fill="url(#evbvvev)" opacity="0.85"/>
-        <rect x="216" y="104" width="68" height="46" rx="8" fill="url(#cvbvvev)"/>
+        <rect x="182" y="180" width="136" height="300" rx="14" fill="url(#gwycj47)" stroke="url(#ewycj47)" stroke-width="2"/>
+        <rect x="228" y="146" width="44" height="38" fill="url(#ewycj47)" opacity="0.85"/>
+        <rect x="216" y="104" width="68" height="46" rx="8" fill="url(#cwycj47)"/>
         <rect x="202" y="250" width="96" height="150" rx="6" fill="#FFFFFF" opacity="0.14"/>
   </g>
 

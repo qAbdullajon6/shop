@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Ayollar atiri">
   <defs>
-    <linearGradient id="gtwfa8o" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g956e11" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#E8A9B8"/>
       <stop offset="52%" stop-color="#C4647A"/>
       <stop offset="100%" stop-color="#8A3F52"/>
     </linearGradient>
-    <linearGradient id="etwfa8o" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="e956e11" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#E8A9B8"/>
       <stop offset="100%" stop-color="#C4647A"/>
     </linearGradient>
-    <linearGradient id="ctwfa8o" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="c956e11" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#3A1E26"/>
     </linearGradient>
-    <linearGradient id="bgtwfa8o" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="bg956e11" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FFFDF9"/>
       <stop offset="100%" stop-color="#E8A9B8" stop-opacity="0.55"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="1000" fill="url(#bgtwfa8o)"/>
+  <rect width="800" height="1000" fill="url(#bg956e11)"/>
   <ellipse cx="400" cy="760" rx="180" ry="24" fill="#000000" opacity="0.1"/>
   <g transform="translate(400 520) scale(1.5) translate(-250 -330)">
     
-        <rect x="150" y="230" width="200" height="240" rx="16" fill="url(#gtwfa8o)" stroke="url(#etwfa8o)" stroke-width="2"/>
-        <rect x="215" y="196" width="70" height="40" fill="url(#etwfa8o)" opacity="0.85"/>
-        <rect x="205" y="150" width="90" height="52" rx="6" fill="url(#ctwfa8o)"/>
+        <rect x="150" y="230" width="200" height="240" rx="16" fill="url(#g956e11)" stroke="url(#e956e11)" stroke-width="2"/>
+        <rect x="215" y="196" width="70" height="40" fill="url(#e956e11)" opacity="0.85"/>
+        <rect x="205" y="150" width="90" height="52" rx="6" fill="url(#c956e11)"/>
         <rect x="176" y="300" width="148" height="112" rx="6" fill="#FFFFFF" opacity="0.14"/>
   </g>
   <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-size="42"

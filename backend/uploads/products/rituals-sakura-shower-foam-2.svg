@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="rituals Rituals Sakura Foaming Shower Gel">
   <defs>
-    <linearGradient id="gvv0pu0" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gusykxg" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#E8A9B8"/>
       <stop offset="52%" stop-color="#C4647A"/>
       <stop offset="100%" stop-color="#8A3F52"/>
     </linearGradient>
-    <linearGradient id="evv0pu0" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="eusykxg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#E8A9B8"/>
       <stop offset="100%" stop-color="#C4647A"/>
     </linearGradient>
-    <linearGradient id="cvv0pu0" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="cusykxg" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#3A1E26"/>
     </linearGradient>
-    <radialGradient id="bgvv0pu0" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgusykxg" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#C4647A" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#8A3F52"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgvv0pu0)"/>
+  <rect width="500" height="620" fill="url(#bgusykxg)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
 
   <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
     
-        <rect x="196" y="168" width="108" height="300" rx="26" fill="url(#gvv0pu0)" stroke="url(#evv0pu0)" stroke-width="2"/>
-        <rect x="196" y="168" width="108" height="22" rx="10" fill="url(#evv0pu0)" opacity="0.7"/>
-        <rect x="220" y="126" width="60" height="46" rx="10" fill="url(#cvv0pu0)"/>
+        <rect x="196" y="168" width="108" height="300" rx="26" fill="url(#gusykxg)" stroke="url(#eusykxg)" stroke-width="2"/>
+        <rect x="196" y="168" width="108" height="22" rx="10" fill="url(#eusykxg)" opacity="0.7"/>
+        <rect x="220" y="126" width="60" height="46" rx="10" fill="url(#cusykxg)"/>
         <rect x="214" y="240" width="72" height="160" rx="6" fill="#FFFFFF" opacity="0.14"/>
   </g>
 

@@ -1,30 +1,30 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" width="800" height="1000" role="img" aria-label="Xushbo&apos;y sovun">
   <defs>
-    <linearGradient id="gaydy27" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gzbrb1k" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#F2EADB"/>
       <stop offset="52%" stop-color="#D9CDB8"/>
       <stop offset="100%" stop-color="#A8967A"/>
     </linearGradient>
-    <linearGradient id="eaydy27" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="ezbrb1k" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#F2EADB"/>
       <stop offset="100%" stop-color="#D9CDB8"/>
     </linearGradient>
-    <linearGradient id="caydy27" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="czbrb1k" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#4A4034"/>
     </linearGradient>
-    <linearGradient id="bgaydy27" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="bgzbrb1k" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#FFFDF9"/>
       <stop offset="100%" stop-color="#F2EADB" stop-opacity="0.55"/>
     </linearGradient>
   </defs>
-  <rect width="800" height="1000" fill="url(#bgaydy27)"/>
+  <rect width="800" height="1000" fill="url(#bgzbrb1k)"/>
   <ellipse cx="400" cy="760" rx="180" ry="24" fill="#000000" opacity="0.1"/>
   <g transform="translate(400 520) scale(1.5) translate(-250 -330)">
     
-        <rect x="140" y="250" width="220" height="150" rx="34" fill="url(#gaydy27)" stroke="url(#eaydy27)" stroke-width="2"/>
+        <rect x="140" y="250" width="220" height="150" rx="34" fill="url(#gzbrb1k)" stroke="url(#ezbrb1k)" stroke-width="2"/>
         <rect x="140" y="250" width="220" height="46" rx="24" fill="#FFFFFF" opacity="0.16"/>
-        <circle cx="250" cy="326" r="42" fill="none" stroke="url(#caydy27)" stroke-width="3" opacity="0.7"/>
+        <circle cx="250" cy="326" r="42" fill="none" stroke="url(#czbrb1k)" stroke-width="3" opacity="0.7"/>
   </g>
   <text x="400" y="880" text-anchor="middle" font-family="Georgia, serif" font-size="42"
         fill="#2A2620">Xushbo&apos;y sovun</text>

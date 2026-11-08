@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="molton-brown Molton Brown Coco &amp; Sandalwood Shower Gel">
   <defs>
-    <linearGradient id="govp8r4" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g9d5k31" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#F2EADB"/>
       <stop offset="52%" stop-color="#D9CDB8"/>
       <stop offset="100%" stop-color="#A8967A"/>
     </linearGradient>
-    <linearGradient id="eovp8r4" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="e9d5k31" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#F2EADB"/>
       <stop offset="100%" stop-color="#D9CDB8"/>
     </linearGradient>
-    <linearGradient id="covp8r4" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="c9d5k31" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#4A4034"/>
     </linearGradient>
-    <radialGradient id="bgovp8r4" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bg9d5k31" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#D9CDB8" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#A8967A"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgovp8r4)"/>
+  <rect width="500" height="620" fill="url(#bg9d5k31)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
 
   <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
     
-        <rect x="196" y="168" width="108" height="300" rx="26" fill="url(#govp8r4)" stroke="url(#eovp8r4)" stroke-width="2"/>
-        <rect x="196" y="168" width="108" height="22" rx="10" fill="url(#eovp8r4)" opacity="0.7"/>
-        <rect x="220" y="126" width="60" height="46" rx="10" fill="url(#covp8r4)"/>
+        <rect x="196" y="168" width="108" height="300" rx="26" fill="url(#g9d5k31)" stroke="url(#e9d5k31)" stroke-width="2"/>
+        <rect x="196" y="168" width="108" height="22" rx="10" fill="url(#e9d5k31)" opacity="0.7"/>
+        <rect x="220" y="126" width="60" height="46" rx="10" fill="url(#c9d5k31)"/>
         <rect x="214" y="240" width="72" height="160" rx="6" fill="#FFFFFF" opacity="0.14"/>
   </g>
 

@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="bath-body-works Bath &amp; Body Works In The Stars Mist">
   <defs>
-    <linearGradient id="g1g3cqm" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gk4q2io" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#B98CAC"/>
       <stop offset="52%" stop-color="#7A4A6B"/>
       <stop offset="100%" stop-color="#4E2C44"/>
     </linearGradient>
-    <linearGradient id="e1g3cqm" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="ek4q2io" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#B98CAC"/>
       <stop offset="100%" stop-color="#7A4A6B"/>
     </linearGradient>
-    <linearGradient id="c1g3cqm" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="ck4q2io" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#2A1826"/>
     </linearGradient>
-    <radialGradient id="bg1g3cqm" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgk4q2io" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
       <stop offset="100%" stop-color="#FFFDF9"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bg1g3cqm)"/>
+  <rect width="500" height="620" fill="url(#bgk4q2io)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.1"/>
 
   <g transform="translate(250 330) rotate(0) scale(1) translate(-250 -330)">
     
-        <rect x="182" y="180" width="136" height="300" rx="14" fill="url(#g1g3cqm)" stroke="url(#e1g3cqm)" stroke-width="2"/>
-        <rect x="228" y="146" width="44" height="38" fill="url(#e1g3cqm)" opacity="0.85"/>
-        <rect x="216" y="104" width="68" height="46" rx="8" fill="url(#c1g3cqm)"/>
+        <rect x="182" y="180" width="136" height="300" rx="14" fill="url(#gk4q2io)" stroke="url(#ek4q2io)" stroke-width="2"/>
+        <rect x="228" y="146" width="44" height="38" fill="url(#ek4q2io)" opacity="0.85"/>
+        <rect x="216" y="104" width="68" height="46" rx="8" fill="url(#ck4q2io)"/>
         <rect x="202" y="250" width="96" height="150" rx="6" fill="#FFFFFF" opacity="0.14"/>
   </g>
 

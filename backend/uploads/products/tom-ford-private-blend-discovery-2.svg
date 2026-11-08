@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="tom-ford Tom Ford Private Blend Discovery">
   <defs>
-    <linearGradient id="gere90z" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gzeb4vx" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#7A7A7A"/>
       <stop offset="52%" stop-color="#3A3A3A"/>
       <stop offset="100%" stop-color="#1A1A1A"/>
     </linearGradient>
-    <linearGradient id="eere90z" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="ezeb4vx" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#7A7A7A"/>
       <stop offset="100%" stop-color="#3A3A3A"/>
     </linearGradient>
-    <linearGradient id="cere90z" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="czeb4vx" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#0A0A0A"/>
     </linearGradient>
-    <radialGradient id="bgere90z" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgzeb4vx" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#3A3A3A" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#1A1A1A"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgere90z)"/>
+  <rect width="500" height="620" fill="url(#bgzeb4vx)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
 
   <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
     
-        <rect x="132" y="252" width="236" height="196" rx="10" fill="url(#gere90z)" stroke="url(#eere90z)" stroke-width="2"/>
-        <rect x="132" y="252" width="236" height="44" rx="8" fill="url(#eere90z)" opacity="0.75"/>
-        <rect x="236" y="252" width="28" height="196" fill="url(#cere90z)" opacity="0.55"/>
-        <path d="M250 252c-26-34-58-40-70-24-10 14 6 24 70 24zm0 0c26-34 58-40 70-24 10 14-6 24-70 24z" fill="url(#cere90z)" opacity="0.8"/>
+        <rect x="132" y="252" width="236" height="196" rx="10" fill="url(#gzeb4vx)" stroke="url(#ezeb4vx)" stroke-width="2"/>
+        <rect x="132" y="252" width="236" height="44" rx="8" fill="url(#ezeb4vx)" opacity="0.75"/>
+        <rect x="236" y="252" width="28" height="196" fill="url(#czeb4vx)" opacity="0.55"/>
+        <path d="M250 252c-26-34-58-40-70-24-10 14 6 24 70 24zm0 0c26-34 58-40 70-24 10 14-6 24-70 24z" fill="url(#czeb4vx)" opacity="0.8"/>
   </g>
 
   <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"

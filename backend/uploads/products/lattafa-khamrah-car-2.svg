@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="lattafa Lattafa Khamrah Car Freshener">
   <defs>
-    <linearGradient id="gk94h87" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="g7hfs23" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#E3B778"/>
       <stop offset="52%" stop-color="#B87333"/>
       <stop offset="100%" stop-color="#7A4A1E"/>
     </linearGradient>
-    <linearGradient id="ek94h87" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="e7hfs23" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#E3B778"/>
       <stop offset="100%" stop-color="#B87333"/>
     </linearGradient>
-    <linearGradient id="ck94h87" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="c7hfs23" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#3A2A18"/>
     </linearGradient>
-    <radialGradient id="bgk94h87" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bg7hfs23" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#B87333" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#7A4A1E"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgk94h87)"/>
+  <rect width="500" height="620" fill="url(#bg7hfs23)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
 
   <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
     
-        <path d="M250 150l86 62v128l-86 62-86-62V212z" fill="url(#gk94h87)" stroke="url(#ek94h87)" stroke-width="2"/>
+        <path d="M250 150l86 62v128l-86 62-86-62V212z" fill="url(#g7hfs23)" stroke="url(#e7hfs23)" stroke-width="2"/>
         <path d="M250 200l50 36v76l-50 36-50-36v-76z" fill="#FFFFFF" opacity="0.16"/>
-        <line x1="250" y1="150" x2="250" y2="96" stroke="url(#ck94h87)" stroke-width="5" stroke-linecap="round"/>
-        <circle cx="250" cy="92" r="12" fill="none" stroke="url(#ck94h87)" stroke-width="5"/>
+        <line x1="250" y1="150" x2="250" y2="96" stroke="url(#c7hfs23)" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="250" cy="92" r="12" fill="none" stroke="url(#c7hfs23)" stroke-width="5"/>
   </g>
 
   <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"

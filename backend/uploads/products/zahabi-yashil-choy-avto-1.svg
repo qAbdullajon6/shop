@@ -1,34 +1,34 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="zahabi-maison Zahabi Yashil Choy Avtomobil Aromasi">
   <defs>
-    <linearGradient id="gqgefcc" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gvdicka" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#9BC7A6"/>
       <stop offset="52%" stop-color="#4A7C59"/>
       <stop offset="100%" stop-color="#2C4E36"/>
     </linearGradient>
-    <linearGradient id="eqgefcc" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="evdicka" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#9BC7A6"/>
       <stop offset="100%" stop-color="#4A7C59"/>
     </linearGradient>
-    <linearGradient id="cqgefcc" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="cvdicka" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#16281C"/>
     </linearGradient>
-    <radialGradient id="bgqgefcc" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgvdicka" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1"/>
       <stop offset="100%" stop-color="#FFFDF9"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgqgefcc)"/>
+  <rect width="500" height="620" fill="url(#bgvdicka)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.1"/>
 
   <g transform="translate(250 330) rotate(0) scale(1) translate(-250 -330)">
     
-        <path d="M250 150l86 62v128l-86 62-86-62V212z" fill="url(#gqgefcc)" stroke="url(#eqgefcc)" stroke-width="2"/>
+        <path d="M250 150l86 62v128l-86 62-86-62V212z" fill="url(#gvdicka)" stroke="url(#evdicka)" stroke-width="2"/>
         <path d="M250 200l50 36v76l-50 36-50-36v-76z" fill="#FFFFFF" opacity="0.16"/>
-        <line x1="250" y1="150" x2="250" y2="96" stroke="url(#cqgefcc)" stroke-width="5" stroke-linecap="round"/>
-        <circle cx="250" cy="92" r="12" fill="none" stroke="url(#cqgefcc)" stroke-width="5"/>
+        <line x1="250" y1="150" x2="250" y2="96" stroke="url(#cvdicka)" stroke-width="5" stroke-linecap="round"/>
+        <circle cx="250" cy="92" r="12" fill="none" stroke="url(#cvdicka)" stroke-width="5"/>
   </g>
 
   <text x="250" y="546" text-anchor="middle" font-family="Georgia, serif" font-size="15"

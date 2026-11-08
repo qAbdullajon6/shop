@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="bath-body-works Bath &amp; Body Works In The Stars Mist">
   <defs>
-    <linearGradient id="gupjzpm" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gtm0zuv" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#B98CAC"/>
       <stop offset="52%" stop-color="#7A4A6B"/>
       <stop offset="100%" stop-color="#4E2C44"/>
     </linearGradient>
-    <linearGradient id="eupjzpm" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="etm0zuv" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#B98CAC"/>
       <stop offset="100%" stop-color="#7A4A6B"/>
     </linearGradient>
-    <linearGradient id="cupjzpm" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="ctm0zuv" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#2A1826"/>
     </linearGradient>
-    <radialGradient id="bgupjzpm" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgtm0zuv" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#7A4A6B" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#4E2C44"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bgupjzpm)"/>
+  <rect width="500" height="620" fill="url(#bgtm0zuv)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
 
   <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
     
-        <rect x="182" y="180" width="136" height="300" rx="14" fill="url(#gupjzpm)" stroke="url(#eupjzpm)" stroke-width="2"/>
-        <rect x="228" y="146" width="44" height="38" fill="url(#eupjzpm)" opacity="0.85"/>
-        <rect x="216" y="104" width="68" height="46" rx="8" fill="url(#cupjzpm)"/>
+        <rect x="182" y="180" width="136" height="300" rx="14" fill="url(#gtm0zuv)" stroke="url(#etm0zuv)" stroke-width="2"/>
+        <rect x="228" y="146" width="44" height="38" fill="url(#etm0zuv)" opacity="0.85"/>
+        <rect x="216" y="104" width="68" height="46" rx="8" fill="url(#ctm0zuv)"/>
         <rect x="202" y="250" width="96" height="150" rx="6" fill="#FFFFFF" opacity="0.14"/>
   </g>
 

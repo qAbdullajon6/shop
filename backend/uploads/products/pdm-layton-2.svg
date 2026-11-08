@@ -1,33 +1,33 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 620" width="500" height="620" role="img" aria-label="parfums-de-marly Parfums de Marly Layton">
   <defs>
-    <linearGradient id="g7ydodm" x1="0" y1="0" x2="1" y2="1">
+    <linearGradient id="gwjar38" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#B98CAC"/>
       <stop offset="52%" stop-color="#7A4A6B"/>
       <stop offset="100%" stop-color="#4E2C44"/>
     </linearGradient>
-    <linearGradient id="e7ydodm" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="ewjar38" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#B98CAC"/>
       <stop offset="100%" stop-color="#7A4A6B"/>
     </linearGradient>
-    <linearGradient id="c7ydodm" x1="0" y1="0" x2="0" y2="1">
+    <linearGradient id="cwjar38" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#D4A852"/>
       <stop offset="100%" stop-color="#2A1826"/>
     </linearGradient>
-    <radialGradient id="bg7ydodm" cx="50%" cy="42%" r="62%">
+    <radialGradient id="bgwjar38" cx="50%" cy="42%" r="62%">
       <stop offset="0%" stop-color="#7A4A6B" stop-opacity="0.45"/>
       <stop offset="100%" stop-color="#4E2C44"/>
     </radialGradient>
   </defs>
 
-  <rect width="500" height="620" fill="url(#bg7ydodm)"/>
+  <rect width="500" height="620" fill="url(#bgwjar38)"/>
 
   <ellipse cx="250" cy="486" rx="118" ry="16" fill="#000000" opacity="0.28"/>
 
   <g transform="translate(250 330) rotate(-7) scale(1.28) translate(-250 -330)">
     
-        <rect x="150" y="230" width="200" height="240" rx="16" fill="url(#g7ydodm)" stroke="url(#e7ydodm)" stroke-width="2"/>
-        <rect x="215" y="196" width="70" height="40" fill="url(#e7ydodm)" opacity="0.85"/>
-        <rect x="205" y="150" width="90" height="52" rx="6" fill="url(#c7ydodm)"/>
+        <rect x="150" y="230" width="200" height="240" rx="16" fill="url(#gwjar38)" stroke="url(#ewjar38)" stroke-width="2"/>
+        <rect x="215" y="196" width="70" height="40" fill="url(#ewjar38)" opacity="0.85"/>
+        <rect x="205" y="150" width="90" height="52" rx="6" fill="url(#cwjar38)"/>
         <rect x="176" y="300" width="148" height="112" rx="6" fill="#FFFFFF" opacity="0.14"/>
   </g>
 
