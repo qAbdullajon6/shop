@@ -100,7 +100,7 @@ function mapProduct(p: Record<string, unknown>): Product {
       id: p.id as string,
       slug: p.brand_slug as string,
       name: p.brand_name as string,
-      logo: null,
+      logo: brandsRaw.find((b: Record<string, unknown>) => b.slug === p.brand_slug)?.logo as string | null ?? null,
     } : null,
     images,
     attributes: [],
