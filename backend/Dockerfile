@@ -4,6 +4,8 @@ COPY package*.json ./
 RUN npm ci
 COPY . .
 RUN npm run build
+# Build may clear uploads — re-copy explicitly after build
+COPY uploads ./uploads
 
 FROM node:22-alpine
 WORKDIR /app
