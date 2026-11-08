@@ -1,18 +1,18 @@
 FROM node:22-alpine AS builder
 WORKDIR /app
-COPY backend/package*.json ./
+COPY package*.json ./
 RUN npm ci
-COPY backend/ .
+COPY . .
 RUN npm run build
 
 FROM node:22-alpine
 WORKDIR /app
-COPY backend/package*.json ./
+COPY package*.json ./
 RUN npm ci --omit=dev
 COPY --from=builder /app/dist ./dist
 COPY --from=builder /app/generated ./generated
 COPY --from=builder /app/prisma ./prisma
-RUN mkdir -p uploads/products uploads/categories uploads/banners uploads/brands
+COPY --from=builder /app/uploads ./uploads
 
 EXPOSE 8000
-CMD ["sh", "-c", "./node_modules/.bin/prisma migrate deploy && node dist/src/main"]
+CMD ["node", "dist/src/main"]
